@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[CustomQueryWizardClasses.cs](./CS/CustomQueryInReportDesigner/CustomQueryWizardClasses.cs) (VB: [CustomQueryWizardClasses.vb](./VB/CustomQueryInReportDesigner/CustomQueryWizardClasses.vb))**
+* [Default.aspx](./CS/CustomQueryInReportDesigner/Default.aspx) (VB: [Default.aspx.vb](./VB/CustomQueryInReportDesigner/Default.aspx.vb))
+* [Default.aspx.cs](./CS/CustomQueryInReportDesigner/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/CustomQueryInReportDesigner/Default.aspx.vb))
+* [DataSourceFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js) (VB: [DataSourceFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js))
+* [HelperMethods.js](./CS/CustomQueryInReportDesigner/Scripts/HelperMethods.js) (VB: [HelperMethods.js](./VB/CustomQueryInReportDesigner/Scripts/HelperMethods.js))
+* [QueryFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/QueryFormEventHandlers.js) (VB: [QueryFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/QueryFormEventHandlers.js))
+* [WizardFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/WizardFormEventHandlers.js) (VB: [WizardFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/WizardFormEventHandlers.js))
+<!-- default file list end -->
 # Web Report Designer - How to add/edit/remove DataSourses in the web report designer (Custom DataSource wizard)
 
 
