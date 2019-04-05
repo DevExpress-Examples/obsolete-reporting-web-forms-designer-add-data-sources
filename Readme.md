@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * **[CustomQueryWizardClasses.cs](./CS/CustomQueryInReportDesigner/CustomQueryWizardClasses.cs) (VB: [CustomQueryWizardClasses.vb](./VB/CustomQueryInReportDesigner/CustomQueryWizardClasses.vb))**
-* [Default.aspx](./CS/CustomQueryInReportDesigner/Default.aspx) (VB: [Default.aspx.vb](./VB/CustomQueryInReportDesigner/Default.aspx.vb))
+* [Default.aspx](./CS/CustomQueryInReportDesigner/Default.aspx) (VB: [Default.aspx](./VB/CustomQueryInReportDesigner/Default.aspx))
 * [Default.aspx.cs](./CS/CustomQueryInReportDesigner/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/CustomQueryInReportDesigner/Default.aspx.vb))
 * [DataSourceFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js) (VB: [DataSourceFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js))
 * [HelperMethods.js](./CS/CustomQueryInReportDesigner/Scripts/HelperMethods.js) (VB: [HelperMethods.js](./VB/CustomQueryInReportDesigner/Scripts/HelperMethods.js))
