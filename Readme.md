@@ -3,18 +3,8 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T196136)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* **[CustomQueryWizardClasses.cs](./CS/CustomQueryInReportDesigner/CustomQueryWizardClasses.cs) (VB: [CustomQueryWizardClasses.vb](./VB/CustomQueryInReportDesigner/CustomQueryWizardClasses.vb))**
-* [Default.aspx](./CS/CustomQueryInReportDesigner/Default.aspx) (VB: [Default.aspx](./VB/CustomQueryInReportDesigner/Default.aspx))
-* [Default.aspx.cs](./CS/CustomQueryInReportDesigner/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/CustomQueryInReportDesigner/Default.aspx.vb))
-* [DataSourceFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js) (VB: [DataSourceFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js))
-* [HelperMethods.js](./CS/CustomQueryInReportDesigner/Scripts/HelperMethods.js) (VB: [HelperMethods.js](./VB/CustomQueryInReportDesigner/Scripts/HelperMethods.js))
-* [QueryFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/QueryFormEventHandlers.js) (VB: [QueryFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/QueryFormEventHandlers.js))
-* [WizardFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/WizardFormEventHandlers.js) (VB: [WizardFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/WizardFormEventHandlers.js))
-<!-- default file list end -->
-# How to Implement a Report Data Source Editor
+# Reporting for Web Forms - Report Data Source Editor (up to v15.1)
 
 > **Important:**
 > This example is relevant for versions **prior to 15.1**. Current versions provide a built-in [Data Source Wizard](https://docs.devexpress.com/XtraReports/400947) in the designer's menu. Review the [Register Data Connections](https://docs.devexpress.com/XtraReports/114129/) and [Register Data Sources](https://docs.devexpress.com/XtraReports/17557) topics for more information on how to add data sources to the built-in Wizard.
@@ -55,3 +45,16 @@ To save the report layout, the client-side [ASPxClientReportDesigner.PerformCal
 
 When the user clicks the **Save** button, the [ASPxCallback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCallback) control sends a non-visual callback to the server to validate the data source or query. The data source and query instances are created. If any errors occur, the error message is sent back to the client. The client-side [ASPxClientCallback.CallbackComplete](https://docs.devexpress.com/AspNet/js-ASPxClientCallback.CallbackComplete) event handler analyzes data that is sent back to the client and displays an error message.
 
+## Files to Look At
+
+* **[CustomQueryWizardClasses.cs](./CS/CustomQueryInReportDesigner/CustomQueryWizardClasses.cs) (VB: [CustomQueryWizardClasses.vb](./VB/CustomQueryInReportDesigner/CustomQueryWizardClasses.vb))**
+* [Default.aspx](./CS/CustomQueryInReportDesigner/Default.aspx) (VB: [Default.aspx](./VB/CustomQueryInReportDesigner/Default.aspx))
+* [Default.aspx.cs](./CS/CustomQueryInReportDesigner/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/CustomQueryInReportDesigner/Default.aspx.vb))
+* [DataSourceFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js) (VB: [DataSourceFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/DataSourceFormEventHandlers.js))
+* [HelperMethods.js](./CS/CustomQueryInReportDesigner/Scripts/HelperMethods.js) (VB: [HelperMethods.js](./VB/CustomQueryInReportDesigner/Scripts/HelperMethods.js))
+* [QueryFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/QueryFormEventHandlers.js) (VB: [QueryFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/QueryFormEventHandlers.js))
+* [WizardFormEventHandlers.js](./CS/CustomQueryInReportDesigner/Scripts/WizardFormEventHandlers.js) (VB: [WizardFormEventHandlers.js](./VB/CustomQueryInReportDesigner/Scripts/WizardFormEventHandlers.js))
+
+## Documentation
+
+- [Data Source Wizard](http://docs.devexpress.devx/XtraReports/400947/web-reporting/gui/wizards/data-source-wizard-fullscreen)
